@@ -1,7 +1,8 @@
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
-    nav:false,
+    nav:true,
+    dots:false,
     responsive:{
         0:{
             items:1
@@ -14,3 +15,14 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    document.getElementById("barra").style.height = "80px";
+  } else {
+    document.getElementById("barra").style.height = "inherit";
+  }
+}
