@@ -41,6 +41,12 @@ header .logo{
     margin-left: 40px;
 }
 
+h2.logo:hover{     
+    text-shadow: 2px 2px white;   
+    opacity: 0.6;
+    cursor: pointer;
+}
+
 header nav a {
     text-decoration: none;
     color: #aaa;
@@ -147,16 +153,25 @@ header nav a:hover {
 
 
 .filme-principal .container{
-    width: 70%;
+  height: auto;
     
 }
 
+.botoes{
+    width: inherit;
+}
 .box-filme{
     height: 100%;
     width: 100%;
     display: block;
     cursor: pointer;
 }
+
+.box-filme:hover{
+    border: 2px solid transparent;
+    transition: .4s ease-out;
+}
+
 
 .carrosel-filmes{
     margin: 15px 20px 50px;

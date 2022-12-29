@@ -16,11 +16,13 @@
     }
     .filme-principal{
         padding-top: 250px;
+        height: auto;
     }
 
     .procura-filme{
         justify-content: flex-end;
     }
+
 
 }
 
