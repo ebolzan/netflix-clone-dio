@@ -58,6 +58,48 @@ header nav a:hover {
 }
 
 
+#procura-filme 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 40%;
+    
+    
+}
+
+
+#procura-filme input{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 210px;
+    border: #aaa;
+    border-radius: 5px;    
+    height: 25px;
+    color: white;
+    padding: 0 0 0 30px;
+    background: #444343
+}
+
+#procura-filme input:focus{
+    outline: none;
+}
+
+#procura-filme i {
+    position: relative;
+    left: -209px;
+    
+}
+
+#procura-filme i:active{
+    font-size: 14pt;
+}
+
+
+
 /*filme principal*/
 .filme-principal{
     font-size: 16px;

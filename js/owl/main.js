@@ -21,7 +21,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    document.getElementById("barra").style.height = "80px";
+    document.getElementById("barra").style.height = "140px";
   } else {
     document.getElementById("barra").style.height = "inherit";
   }
