@@ -1,8 +1,12 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 780px) {
 
     header .container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column;             
+    }
+
+   header .logo{
+        margin-left: 0;
     }
 
     .botao{
@@ -10,6 +14,14 @@
         width: 280px;
         
     }
+    .filme-principal{
+        padding-top: 250px;
+    }
+
+    .procura-filme{
+        justify-content: flex-end;
+    }
+
 }
 
 @media screen and (min-width: 1000px) {
